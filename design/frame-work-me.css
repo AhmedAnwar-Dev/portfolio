@@ -1,0 +1,8 @@
+.speacial-heading {
+  text-align: center;
+  color: var(--main-color);
+}
+.padding-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
