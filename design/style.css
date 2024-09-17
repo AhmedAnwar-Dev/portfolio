@@ -94,7 +94,7 @@ header .continer nav ul li a:hover {
 /* End Header */
 /* Start information */
 .information {
-  background-image: url(/image/profile\ img.jpg);
+  background-image: url(image/profile\ img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
