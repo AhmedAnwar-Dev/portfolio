@@ -266,8 +266,8 @@ header .continer nav ul li a:hover {
   height: 250px;
 }
 .project .services-content .card .image img {
-  min-width: 100%;
   max-height: 100%;
+  width: 100%;
   transition: .5s;
   -webkit-transition: .5s;
   -moz-transition: .5s;
@@ -275,12 +275,9 @@ header .continer nav ul li a:hover {
   -o-transition: .5s;
 }
 .project .services-content .card:hover .image img {
-  opacity: 0.5;
-  transform: scale(1.03) rotate(2deg);
-  -webkit-transform: scale(1.03) rotate(2deg);
-  -moz-transform: scale(1.03) rotate(2deg);
-  -ms-transform: scale(1.03) rotate(2deg);
-  -o-transform: scale(1.03) rotate(2deg);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
 }
 .project .services-content .card .info {
   padding: 5px;
@@ -319,7 +316,7 @@ header .continer nav ul li a:hover {
   align-items: center;
 }
 .contact .contact-card .card {
-  width: calc(60% / 2);
+  flex-basis: 30%;
   margin: 10px 20px;
   text-align: center;
   box-shadow: 1px 1px 10px #00000069;
