@@ -187,6 +187,7 @@ header .continer nav ul li a:hover {
 }
 .services .services-content .card h3,
 .services .services-content .card i{
+  position: relative;
   color: var(--main-color);
   text-align: center;
 }
@@ -212,9 +213,21 @@ header .continer nav ul li a:hover {
 /* End Services */
 /* Start project */
 .project {
-  background: #272727;
+  background-image: url(../image/document-marketing-strategy-business-concept.jpg);
+  background-size: cover;
+  position: relative;
+}
+.project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .project .services-content {
+  position: relative;
   display: flex;
   flex-wrap:wrap ;
   justify-content: center;
@@ -273,11 +286,6 @@ header .continer nav ul li a:hover {
   -moz-transition: .5s;
   -ms-transition: .5s;
   -o-transition: .5s;
-}
-.project .services-content .card:hover .image img {
-  transform: scale(1.03);
-  -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
 }
 .project .services-content .card .info {
   padding: 5px;

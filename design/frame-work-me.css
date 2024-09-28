@@ -1,4 +1,5 @@
 .speacial-heading {
+  position: relative;
   text-align: center;
   color: var(--main-color);
 }
